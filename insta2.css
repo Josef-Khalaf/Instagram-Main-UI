@@ -1,0 +1,77 @@
+nav ul li span {
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+nav ul li span:hover {
+  font-size: 2em;
+  color: rgb(196, 12, 73);
+}
+.ura img {
+  margin-top: 12px;
+  border: solid 1px gray;
+  border-radius: 50%;
+}
+.ura span {
+  position: relative;
+  bottom: 15px;
+  left: 10px;
+}
+.Ja {
+  img {
+    border: solid 2px black;
+    border-radius: 50%;
+  }
+  span {
+    position: relative;
+    bottom: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  div {
+    position: relative;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 58px;
+    bottom: 5px;
+  }
+  .switch {
+    color: rgb(23, 123, 180);
+    position: relative;
+    left: 200px;
+    bottom: 35px;
+    cursor: pointer;
+  }
+}
+.sug {
+  font-size: 14px;
+  color: rgb(158, 152, 152);
+}
+.see {
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 13px;
+}
+.stories span {
+  width: 55px;
+  background-image: linear-gradient(to right, orange, purple, pink);
+  border: solid 1px purple;
+  border-radius: 50%;
+  position: relative;
+}
+.stories img {
+  border: purple 1px solid;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.5px;
+  top: 2px;
+}
+.line {
+  width: 2px;
+  height: 100vh;
+  background-color: gray;
+  background-attachment: scroll;
+}
